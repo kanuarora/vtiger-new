@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+<!--    <listeners>-->
+<!--        &lt;!&ndash; Replace 'com.vtiger.genericUtility' with your actual package name &ndash;&gt;-->
+<!--        <listener class-name="listener_utility.ListenerImpl" />-->
+<!--    </listeners>-->
+    <test name="hello">
+        <classes>
+            <class name="contacts.CreateContactTest">
+            </class>
+        </classes>
+    </test>
+</suite>
